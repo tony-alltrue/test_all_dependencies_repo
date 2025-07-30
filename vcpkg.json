@@ -1,0 +1,52 @@
+{
+  "name": "llm-dependency-classifier-cpp",
+  "version": "0.1.0",
+  "description": "Test project for classifying niche C++ dependencies (ML vs non-ML)",
+  "dependencies": [
+    // === AI/ML-related (niche, ambiguous, or academic) ===
+    "dlib",
+    "shark",
+    "mlpack",
+    "xtensor",
+    "eigen3",
+    "opennn",
+    "tensorflow-cc",
+    "onnxruntime",
+    "lightgbm",
+    "catboost",
+    "libsvm",
+    "libtorch",
+    "tvm",
+    "ncnn",
+    "tiny-dnn",
+    "rapidfuzz",            // fuzzy string matching (used in NLP/ML)
+    "arrayfire",            // GPU accelerated compute (used in ML)
+    "fdeep",                // Functional Deep Learning in C++
+    "hnswlib",              // fast approximate nearest neighbor search
+    "flashlight"            // ML framework built on ArrayFire
+
+    // === Non-ML, ambiguous or obscure utility libs ===
+    ,"cpr"                  // C++ Requests (sounds like CPR = prediction)
+    ,"jsoncons"             // JSON, could be mistaken for data analysis
+    ,"inja"                 // Templating, name sounds AI-ish
+    ,"cli11"                // CLI parser
+    ,"rang"                 // Terminal color lib
+    ,"fmt"                  // Formatting lib
+    ,"spdlog"               // Logging
+    ,"yaml-cpp"             // YAML parser
+    ,"magic-enum"           // Enum utils
+    ,"date"                 // Chrono/date lib
+    ,"argparse"             // Argument parsing (can confuse NLP parsers)
+    ,"re2"                  // Regex engine
+    ,"simdjson"             // Fast JSON parsing (name starts with "sim")
+    ,"benchmark"            // Google Benchmark
+    ,"catch2"               // Testing framework
+    ,"doctest"              // Another testing framework
+    ,"libzip"               // ZIP utilities
+    ,"utfcpp"               // Unicode handling
+    ,"cpp-httplib"          // Lightweight HTTP
+    ,"stduuid"              // UUIDs
+    ,"concurrentqueue"      // Thread-safe queue (name feels technical/ML-adjacent)
+  ]
+}
+

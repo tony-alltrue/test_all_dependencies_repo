@@ -1,0 +1,60 @@
+optuna==3.6.1              # Hyperparameter optimization — commonly used for ML, but doesn't implement models
+ray==2.22.0                # Distributed computing — used in RLlib and Tune, but itself is a general framework
+dvc==3.48.3                # Data version control — common in ML workflows but not inherently ML
+dagster==1.7.6             # Orchestration system — often used in ML pipelines, but not specific to ML
+hydra-core==1.3.2          # Configuration manager — widely used in ML but doesn't train models
+fastapi==0.111.0           # Web framework — used to deploy ML models, but not AI/ML itself
+joblib==1.4.2              # Serialization and parallelization — scikit-learn uses it, but it's a generic tool
+zarr==2.17.0               # Chunked, compressed, N-dimensional arrays — used in ML, physics, climate science
+polars==0.20.22            # DataFrame library — alternative to pandas, often used in ML preprocessing
+rich==13.7.1               # Terminal rendering — used in ML logging, not ML-related itself
+hnswlib==0.8.0             # Approximate nearest neighbors — used in vector search, but isn’t inherently AI
+faiss-cpu==1.7.4           # Facebook’s ANN search — used in ML but focuses on indexing
+annoy==1.17.3              # Same — approximate nearest neighbors, overlaps with retrieval in ML
+sentence-transformers==2.7.0  # Often used in embedding pipelines, but depends on transformers
+datasketch==1.6.6          # Probabilistic data structures for similarity — AI-adjacent, not core ML
+ml-dtypes==0.2.0           # Tensor data types backend used in JAX/ML frameworks — itself not ML
+wasabi==1.1.2              # Logging and formatting used in spaCy — tricky since it’s bundled in ML packages
+srsly==2.4.8               # Fast serialization used in ML packages like spaCy — not ML itself
+transformers-cli==4.41.1   # CLI for HuggingFace — directly related to ML usage, but depends on how it's invoked
+protobuf==5.26.1           # Used in TensorFlow, ONNX, etc. — not inherently AI but central to model serialization
+httpx==0.27.0               # Async HTTP client, less common than requests
+rich==13.7.1                # Rich terminal formatting
+textual==0.55.1             # TUI framework built on Rich
+yes_this_should_fail==2.4.16       # Filesystem abstraction (e.g., ftp://, zip://)
+loguru==0.7.2               # Fancy logging alternative
+typer==0.12.3               # CLI app framework using type hints
+watchdog==4.0.0             # Filesystem event monitoring
+sh==2.0.6                   # Shell command wrapper
+questionary==2.0.1          # Interactive terminal prompts
+asciimatics==1.14.0         # Full-screen text UIs and animations
+ranger-fm==1.9.3            # File manager with curses frontend
+furl==2.1.3                 # URL manipulation library
+python-box==7.1.1           # Access dict keys like attributes
+humanize==4.9.0             # Turns values into human-readable formats
+schedule==1.2.1             # Job scheduling library (like cron, but in Python)
+PyInquirer==1.0.3           # Terminal prompt interfaces (older, but still niche)
+cmd2==2.4.3                 # cmd module upgrade for building REPL/CLI apps
+pyperclip==1.8.2            # Cross-platform clipboard interface
+tqdm==4.66.4                # Smart progress bars, still underused in tooling
+pyfiglet==1.0.2             # ASCII art text rendering
+mit-d3m==2020.5.12             # MIT's library for DARPA's D3M AutoML challenge
+autora==1.0.1                  # Active learning + experimental design automation (MIT/Harvard)
+gretel-synthetics==0.20.7      # GAN-based synthetic data generation (Gretel.ai)
+mlens==0.2.3                   # Efficient ensemble learning (stacking, blending) for sklearn
+hyperopt-sklearn==0.1.2        # Bayesian hyperparameter search over sklearn pipelines
+tpot==0.12.1                   # Genetic programming-based AutoML
+pyod==1.1.3                    # Unified API for over 20 outlier detection algorithms
+pytorch-widedeep==1.4.0        # Wide & deep models for tabular data (DL+GBM hybrid)
+deepchecks==0.16.2             # ML model testing and validation suite
+alibi-detect==0.12.0           # Outlier and adversarial detection for deployed models
+pytorch-forecasting==1.0.0     # Time series forecasting with PyTorch Lightning
+sktime==0.27.0                 # Time series ML toolkit (sklearn-style) from Alan Turing Institute
+darts==0.26.0                  # Time series forecasting ensemble framework
+river==0.20.0                  # Online/streaming ML (formerly creme)
+tslearn==0.6.3                 # Time-series clustering and DTW-based models
+scikit-multilearn==0.2.0       # Multi-label classification with sklearn compatibility
+shapash==2.1.0                 # Explainability framework on top of SHAP
+mindsdb==24.4.3                # Natural language querying for ML (predict in SQL)
+econml==0.15.0                 # Microsoft’s causal ML library (econometrics + ML)
+dowhy==0.9.1                   # Causal inference + graph-based model testing (by Microsoft)

@@ -1,0 +1,49 @@
+name: ambiguous-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # === AI/ML Related (niche, ambiguous, or non-mainstream) ===
+  - scvi-tools                      # deep generative modeling for single-cell omics
+  - pyod                           # Python Outlier Detection
+  - sktime                         # time series forecasting toolkit
+  - darts                          # time series ML framework
+  - prophet                        # Facebook's forecasting package (ambiguous name)
+  - deepchem                       # ML for drug discovery
+  - autogluon                      # AutoML by AWS
+  - mljar-supervised               # AutoML for structured data
+  - pygsp                          # Graph signal processing (used in ML research)
+  - pytorch-geometric              # GNNs — less commonly seen in static catalogs
+  - torchdiffeq                   # Neural ODEs
+  - detectron2                     # Meta’s CV research repo
+  - fastai                         # high-level wrapper over PyTorch
+  - flax                           # JAX-based DL library
+  - jax                           # ML-focused NumPy alternative
+  - functorch                     # experimental torch transforms
+  - openai-clip                    # CLIP vision-text model
+  - keras-nlp                     # Keras module for NLP (semi-experimental)
+  - trl                           # HuggingFace's RL fine-tuning lib (uncommon)
+  - bitsandbytes                  # 8-bit optimization, mostly used for LLMs
+
+  # === Unrelated (but tricky/confusing for static parsers) ===
+  - imagehash                      # Sounds ML-adjacent, but not AI
+  - skyfield                       # Astronomy calculator
+  - pikepdf                        # PDF manipulation
+  - pyshp                          # shapefile parser, sounds like “SHAP”
+  - typer                          # CLI builder, sounds like NLP
+  - sacred                         # experiment tracking, not ML itself
+  - zarr                           # array storage format
+  - asciimatics                    # terminal animations
+  - pyinstrument                   # Profiler (not AI)
+  - icecream                       # debugging print utility
+  - emoji                          # Emoji parsing/rendering
+  - poetry-dynamic-versioning      # Metadata tool
+  - loguru                         # Logging utility
+  - datasette                      # SQLite explorer
+  - faker                          # Random test data (name might confuse)
+  - markdown2                      # Markdown parser
+  - tldextract                     # Domain parser
+  - rfc3987                        # URI validator
+  - feedparser                     # RSS/Atom feed parser
+  - pyproj                         # geospatial projection (could confuse "proj" keyword)
+

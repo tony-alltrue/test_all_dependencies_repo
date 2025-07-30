@@ -1,0 +1,59 @@
+[project]
+name = "llm-dependency-classifier-test"
+version = "0.1.0"
+description = "A testbed for evaluating dynamic AI/ML package classification by LLMs"
+authors = [
+  { name="Tony", email="tony@example.com" }
+]
+requires-python = ">=3.8"
+
+dependencies = [
+  # === AI/ML-ish (rare, confusing, or new) ===
+  "scvi-tools",
+  "pyod",
+  "sktime",
+  "darts",
+  "deepchem",
+  "autogluon",
+  "mljar-supervised",
+  "pytorch-forecasting",
+  "pytorch-lightning",
+  "torchmetrics",
+  "jax",
+  "flax",
+  "functorch",
+  "bitsandbytes",
+  "trl",
+  "keras-nlp",
+  "spacy-curated-transformers",
+  "sentencepiece",
+  "openai-clip",
+  "optuna",
+
+  # === Not ML, but ambiguous or niche ===
+  "typer",
+  "sacred",
+  "skyfield",
+  "asciimatics",
+  "pikepdf",
+  "zarr",
+  "faker",
+  "emoji",
+  "tldextract",
+  "feedparser",
+  "loguru",
+  "datasette",
+  "pyinstrument",
+  "markdown2",
+  "poetry-dynamic-versioning",
+  "rfc3987",
+  "pyshp",
+  "pyproj",
+  "icecream",
+  "humanize"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+

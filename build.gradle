@@ -1,0 +1,63 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.tony.llmtest'
+version = '0.1.0'
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    // === AI/ML-related (niche, confusing, rare) ===
+    implementation 'com.github.haifengl:smile-core:2.6.0'
+    implementation 'org.deeplearning4j:deeplearning4j-core:1.0.0-beta7'
+    implementation 'org.nd4j:nd4j-native-platform:1.0.0-beta7'
+    implementation 'org.dmg.pmml:pmml-evaluator:1.5.15'
+    implementation 'ai.catboost:catboost-predictor:0.26'
+    implementation 'ai.h2o:h2o-core:3.38.0.1'
+    implementation 'org.encog:encog-core:3.4'
+    implementation 'org.tribuo:tribuo-classification-core:4.2.1'
+    implementation 'com.github.hughbric:neuroph:2.98'
+    implementation 'com.github.svhelloworld:quantum-computing-sim:0.0.5'
+    implementation 'com.intel.analytics:BigDL:2.1.0'
+    implementation 'org.tensorflow:tensorflow:1.15.0'
+    implementation 'com.github.jswart:keras2onnx:0.0.3'
+    implementation 'ai.djl:api:0.26.0'
+    implementation 'ai.djl.tensorflow:tensorflow-engine:0.26.0'
+    implementation 'org.mlpiper:mlpiper:1.1.1'
+    implementation 'ml.bundle:bundle-ml:0.8.0'
+    implementation 'com.salesforce.transmogrifai:transmogrifai-core_2.11:0.7.0'
+    implementation 'org.knowm.xchart:xchart:3.8.0'
+
+    // === Non-ML, ambiguous, rare or misleading ===
+    implementation 'com.google.zxing:core:3.5.1'
+    implementation 'com.vladsch.flexmark:flexmark-all:0.64.0'
+    implementation 'org.ocpsoft.prettytime:prettytime:5.0.2.Final'
+    implementation 'org.jodd:jodd-util:6.2.2'
+    implementation 'net.coobird:thumbnailator:0.4.20'
+    implementation 'org.apache.commons:commons-email:1.5'
+    implementation 'com.github.oshi:oshi-core:6.4.7'
+    implementation 'org.jsoup:jsoup:1.17.2'
+    implementation 'com.github.lalyos:jfiglet:0.0.8'
+    implementation 'com.jakewharton.byteunits:byteunits:0.9.1'
+    implementation 'com.cronutils:cron-utils:9.2.0'
+    implementation 'org.mindrot:jbcrypt:0.4'
+    implementation 'com.github.jai-imageio:jai-imageio-core:1.4.0'
+    implementation 'com.moandjiezana.toml:toml4j:0.7.2'
+    implementation 'com.googlecode.soundlibs:mp3spi:1.9.5-1'
+    implementation 'com.brsanthu:migbase64:2.2'
+    implementation 'org.jline:jline:3.23.0'
+    implementation 'com.github.wnameless:json-flattener:0.15.0'
+    implementation 'com.github.briandilley.jsonrpc4j:jsonrpc4j:1.5.0'
+    implementation 'org.apache.commons:commons-vfs2:2.9.0'
+    implementation 'org.ini4j:ini4j:0.5.4'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
