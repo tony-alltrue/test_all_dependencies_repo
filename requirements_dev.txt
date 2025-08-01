@@ -1,0 +1,44 @@
+# --- ML / AI-adjacent libraries (approx. 20) ---
+lightautoml==0.3.7             # Lightweight AutoML framework
+mljar-supervised==1.1.7        # No-code AutoML for tabular data
+gradsflow==0.0.44              # AutoML built on top of PyTorch Lightning
+xcessiv==1.0.7                 # Meta-modeling and ensemble optimization
+autoxgb==0.1.5                 # AutoML wrapper specialized for XGBoost
+mlaut==0.1.2                   # AutoML interface for time series and tabular data
+feat==0.4.0                    # Facial expression analysis and emotion detection
+deepface==0.0.83               # Face recognition and attribute analysis
+biobb_ml==3.1.0                # ML pipeline builder for bioinformatics
+geotorch==0.3.0                # Geometric constraints for deep learning models
+lava-dl==0.4.0                 # Intel's neuromorphic ML framework (Lava)
+qml==0.5.2                     # Quantum ML in PyTorch-like API
+icevision==0.15.0              # Object detection and vision models
+torch-forecasting-models==0.1.3  # Low-level PyTorch forecasting utilities
+rethinking==0.0.6              # Bayesian deep learning models (builds on Pyro)
+neuralprophet==0.6.2           # Facebook Prophet + deep learning hybrid
+alphashape==1.3.1              # Geometric ML feature engineering (concave hulls)
+lemon==0.1.10                  # Causal discovery via graphical models (not Lemon Graph lib)
+econpizza==0.0.2               # DSGE model simulation meets ML (Econ+ML)
+dkl-pytorch==0.1.0             # Deep kernel learning on top of GPyTorch
+
+# --- Non-ML libraries (approx. 20) ---
+termage==1.2.0                 # Render images in terminal with ANSI escape codes
+dlsim==0.1.3                   # Simulate discrete linear systems — signal processing
+py-multibase==1.0.3            # Encoding/decoding tool for multibase formats (used in IPFS)
+netgraph==3.0.3                # Lightweight interactive network graph visualizer
+ghapi==1.0.3                   # Pythonic GitHub API wrapper (experimental)
+pysemver==3.0.1                # Semantic version comparison and formatting
+neotermcolor==1.3.0            # Terminal color lib with extended themes
+pylo==0.2.0                    # Rule-based logic language interpreter
+textual-dev==0.7.2             # Experimental dev tools for Textual apps
+nanorpc==0.3.3                 # Fast JSON-RPC server for microservices
+aioitertools==0.11.0           # Async versions of itertools — used in streaming infra
+pyvcd==0.1.2                   # Video Content Description format handler (VCD 4.0)
+pygubu==0.31.1                 # GUI builder wrapper for tkinter
+pycorenlp==0.3.0               # Thin client for Stanford CoreNLP server
+filesize==1.2.0                # Convert bytes to human-readable sizes
+geoparse==1.3.1                # Lightweight geolocation parser (not NLP)
+structlog==24.1.0              # Structured logging for production backends
+cli-ui==0.16.0                 # Fancy terminal UI interactions
+komand-plugin-sdk==3.1.2       # Plugin SDK for Rapid7’s InsightConnect — security tool
+pyznap==1.1.5                  # ZFS snapshot automation (ZFS backup tool)
+
